@@ -9,7 +9,7 @@ def play_game():
     '''
 
     guess = random.randint(1, 10)
-    chances = 5
+    chances = 3
     while chances != 0:
         usr_guess = input("Enter a number:")
         if usr_guess == guess:
