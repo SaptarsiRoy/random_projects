@@ -19,6 +19,7 @@ def play_game():
         print("Cances remaining:", chances)
     if chances == 0:
         print("Better luck next time :(")
+        print("The number was:", guess)
 
 
 if __name__ == '__main__':
